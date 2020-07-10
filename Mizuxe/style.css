@@ -1,0 +1,118 @@
+/* Reusable Component */
+.text-primary {
+  color: #3292a6 !important;
+}
+
+.border-primary {
+  border-color: #3292a6 !important;
+}
+
+.bg-primary {
+  background-color: #3292a6 !important;
+}
+
+.btn-primary {
+  background-color: #3292a6 !important;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+body {
+  margin-top: 90px;
+}
+
+/* Header-section */
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #3292a6;
+          box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: .9;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  padding-right: 20px;
+}
+
+.navbar .nav-item .nav-link {
+  color: black;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #3292a6;
+}
+
+.navbar .nav-item:last-child {
+  padding-right: 0;
+}
+
+/* Hero-section */
+#home {
+  position: relative;
+  background: url(img/mountains.jpg);
+  min-height: 600px;
+}
+
+#home .primary-overlay {
+  background: rgba(50, 146, 156, 0.7);
+  min-height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Subscribe section */
+#subscribe button {
+  background: #3292a6;
+  border-color: #3292a6;
+  color: white;
+}
+
+#subscribe button:hover {
+  background: #297889;
+}
+
+/* Authors Section */
+#author img {
+  margin-top: -50px;
+}
+
+#author .card {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#author .card:hover {
+  background-color: #3292a6;
+  color: white;
+}
+
+#author .card:hover .fab {
+  color: white;
+}
+
+/* contact-section */
+#contact-us img {
+  margin-top: 150px;
+}
+
+/* Responsive  */
+@media (max-width: 576px) {
+  #home .display-1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #home .display-1 {
+    font-size: 4rem;
+  }
+}
