@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mt-70{
+    margin-top: 70px;
+}
+
+.carousel-item{
+    height: 450px;
+
+    .carousel-caption{
+        margin-bottom: 90px;
+    }
+}
+.carousel-img-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.774),rgba(0, 0, 0, 0.774)),url(img/slider1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.774),rgba(0, 0, 0, 0.774)),url(img/slider2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.774),rgba(0, 0, 0, 0.774)),url(img/slider3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fas{
+    font-size: 50px;
+}
+
+#getStarted{
+    background: linear-gradient(rgba(51, 51, 51, 0.9),rgba(51, 51, 51, 0.9)),url(img/bg1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+#home-video{
+    background: url(img/people.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    min-height: 250px;
+    position: relative;
+    .dark-overlay{
+        background: rgba(0, 0, 0, 0.774);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    .fa-play{
+        color: red;
+    }
+}
+
+#photo-gallery{
+    img{
+        min-height: 250px;
+    }
+}
+
+#copyright{
+    background: black;
+}
